@@ -1,0 +1,36 @@
+% xelatex
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage[backend=biber,style=apa,sorting=nyvt]{biblatex}
+
+\addbibresource{bibliography.bib}
+\DeclareLanguageMapping{american}{american-apa}
+\renewcommand{\UrlFont}{\tt}
+
+%\DefineBibliographyStrings{american}{%
+%    bibliography = {Bibliography}
+%}
+
+\title{<++>}
+\author{<++>}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+<++>
+
+\newpage
+\printbibliography
+
+\end{document}
