@@ -1,5 +1,5 @@
 % xelatex
-\documentclass[a4paper,12pt]{report}
+\documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[american]{babel}
 \usepackage{csquotes}
@@ -7,15 +7,20 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{tensor}
 \usepackage{siunitx}
-\usepackage[backend=biber,style=apa,sorting=nyvt]{biblatex}
+\usepackage{appendix}
+\usepackage[backend=biber,style=phys,sorting=nyvt]{biblatex}
 
 \addbibresource{bibliography.bib}
-\DeclareLanguageMapping{american}{american-apa}
+%\DeclareLanguageMapping{american}{american-apa}
 \renewcommand{\UrlFont}{\tt}
 
 %\DefineBibliographyStrings{american}{%
-%    bibliography = {Bibliography}
+%    references = {References}
 %}
 
 \title{<++>}
